@@ -55,6 +55,8 @@ def iso_model(params, ns, pts):
     """
     Isolation model with no migration
     params = (nu1, nu2, T)
+    - nu1: Final size of west population
+    - nu2: Final size of east population
     """
     nu1, nu2, T = params
 
@@ -73,6 +75,11 @@ def constant_migration(params, ns, pts):
     """
     Constant migration model
     params = (nu1, nu2, m12, m21, T)
+    - nu1: Final size of west population
+    - nu2: Final size of east population
+    - m12: Migration from west to east
+    - m21: Migration from east to wast
+    - T: Time since split
     """
     nu1, nu2, m12, m21, T = params
 
