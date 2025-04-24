@@ -4,8 +4,8 @@ library(data.table)
 west <- fread('/Users/dennistpw/Projects/funestus_tz/stairwayplot/west_rift/west_rift.final.summary')
 east <- fread('/Users/dennistpw/Projects/funestus_tz/stairwayplot/east_rift.final.summary')
 
-west$pop <- 'Rift West'
-east$pop <- 'Rift East'
+west$pop <- 'West'
+east$pop <- 'East'
 
 both <- rbind(west, east)
 
