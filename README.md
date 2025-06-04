@@ -9,19 +9,19 @@ We analysed the whole genome sequences of 334 An. funestus mosquitoes sampled fr
 
 This repository contains the code used to analyse the data generated in this analysis. The R-markdown contains:
 1. Script for generating the ADMIXTURE plots.
-2. Script for generating the runs of homozygosity (ROH) plot.
+2. Script for generating the runs of homozygosity (ROH) plot
+3. Effective migration surfaces using fEEMS
+4. Changes in effective population size (Ne) over time by using Stairwayplot2.
 
 The Jupyter notebook contains:
 1. The PCA plots on all chromosome X and 2RL, with 2RL revealing inland and coastal clusters
-2. Effective migration surfaces using fEEMS
-3. Genome-wide population diversity - nucleotide diversity (π) and Tajima’s D
-4. Changes in effective population size (Ne) over time by using Stairwayplot2.
-5. Between-population differentiation (Fst)
-6. Between-sample relatedness using PC-Relate implemented in sgkit.
-7. Genome-wide selection scans (GWSS) with the H12 statistic 
-8. Diplotype clustering dendrograms for the genes Cyp6p9 and Cyp9k1
-9. Amino acid variation around the Cyp6p9 and Cyp9k1 genes
-10. Copy number variation around the Cyp6p gene cluster (Rp1) and Cyp9k1 genes
+2. Genome-wide population diversity - nucleotide diversity (π) and Tajima’s D
+3. Between-population differentiation (Fst)
+4. Between-sample relatedness using PC-Relate implemented in sgkit.
+5. Genome-wide selection scans (GWSS) with the H12 statistic 
+6. Diplotype clustering dendrograms for the genes Cyp6p9 and Cyp9k1
+7. Amino acid variation around the Cyp6p9 and Cyp9k1 genes
+8. Copy number variation around the Cyp6p gene cluster (Rp1) and Cyp9k1 genes
 
 If you'd like to reproduce the analysis, please clone this repo and run the Jupyter notebook first. Make sure you can access malariagen_data](https://malariagen.github.io/vector-data/vobs/vobs-data-access.html). The notebook should run and download the data required to plot the rest of the analyses in the RMarkdown.
 
